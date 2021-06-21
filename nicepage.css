@@ -34017,14 +34017,14 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 102px;
+  min-height: 100px;
 }
 
 .u-header .u-text-1 {
   font-size: 3rem;
   font-family: Canciller_Bold;
   animation-duration: 1000ms;
-  margin: 24px 670px 0 100px;
+  margin: 23px 670px 0 100px;
 }
 
 .u-header .u-menu-1 {
@@ -34046,7 +34046,7 @@ a.u-link.u-text-hover-grey-90:hover {
   background-image: url("images/logolaskarambis.jfif");
   background-position: 50% 50%;
   animation-duration: 1000ms;
-  margin: -59px auto 11px 0;
+  margin: -59px auto 10px 0;
 }
 @media (max-width: 1199px) {
   .u-header .u-text-1 {
@@ -34131,12 +34131,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 85px;
 }
 
 .u-footer .u-text-1 {
   width: 528px;
-  margin: 38px auto;
+  margin: 20px auto 3px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {

@@ -1,16 +1,15 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 710px;
+  min-height: 800px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  width: 1140px;
-  margin: 60px 0 50px;
+  margin-top: 60px;
+  margin-bottom: 0;
 }
 
-.u-section-1 .u-image-1 {
-  background-image: url("images/logolaskarambis.jfif");
+.u-section-1 .u-layout-cell-1 {
   background-position: 50% 50%;
-  min-height: 620px;
+  min-height: 642px;
   animation-duration: 1000ms;
 }
 
@@ -18,12 +17,18 @@
   padding: 30px;
 }
 
+.u-section-1 .u-image-1 {
+  height: 500px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .u-section-1 .u-layout-cell-2 {
-  min-height: 620px;
+  min-height: 642px;
 }
 
 .u-section-1 .u-container-layout-2 {
-  padding: 30px 30px 30px 10px;
+  padding: 30px 30px 20px 10px;
 }
 
 .u-section-1 .u-text-1 {
@@ -39,28 +44,41 @@
 
 .u-section-1 .u-text-3 {
   font-weight: 700;
-  margin: 30px 0 0;
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-text-4 {
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-text-5 {
+  margin: 10px 0 0;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 10px 0 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 601px;
+    min-height: 691px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     margin-top: 41px;
     margin-bottom: 27px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 529px;
   }
 
   .u-section-1 .u-image-1 {
-    min-height: 553px;
+    height: 402px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 511px;
+    min-height: 529px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -74,24 +92,29 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 661px;
+    min-height: 1100px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     margin-top: 40px;
     margin-bottom: 40px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 1040px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .u-section-1 .u-image-1 {
-    background-position: 48.96% 0%;
-    min-height: 424px;
+    height: 355px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 100px;
+    min-height: 1040px;
   }
 }
 
@@ -100,13 +123,17 @@
     min-height: 890px;
   }
 
-  .u-section-1 .u-image-1 {
-    min-height: 558px;
+  .u-section-1 .u-layout-cell-1 {
+    background-position: 48.77% 0%;
+    min-height: 584px;
   }
 
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
+  .u-section-1 .u-image-1 {
+    height: 532px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -115,8 +142,12 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 368px;
+  }
+
   .u-section-1 .u-image-1 {
-    min-height: 351px;
+    height: 335px;
   }
 }@font-face {
   font-family: 'Canciller_Bold';
